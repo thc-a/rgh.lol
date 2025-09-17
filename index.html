@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rgh.lol - Coming Soon</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav">
+            <div class="nav-brand">
+                <span class="logo">rgh.lol</span>
+                <span class="status-badge">Coming Soon</span>
+            </div>
+        </nav>
+
+        <main class="main">
+            <section class="hero">
+                <h1 class="hero-title">Building the future of development</h1>
+                <p class="hero-subtitle">
+                    A new platform for developers to create, collaborate, and ship faster than ever before.
+                </p>
+                <div class="hero-cta">
+                    <button class="btn-primary" onclick="scrollToNotify()">Get Early Access</button>
+                    <button class="btn-secondary" onclick="scrollToProjects()">See Examples</button>
+                </div>
+            </section>
+
+            <section class="features" id="features">
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Lightning Fast</h3>
+                        <p>Built for speed with modern tooling and optimized workflows</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🤖</div>
+                        <h3>AI-Powered</h3>
+                        <p>Intelligent assistance that understands your code and context</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔧</div>
+                        <h3>Developer First</h3>
+                        <p>Designed by developers, for developers. No compromises.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🌐</div>
+                        <h3>Universal</h3>
+                        <p>Works with any language, framework, or deployment target</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="projects" id="projects">
+                <h2 class="section-title">Example Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">📱</div>
+                            <div class="project-meta">
+                                <h3>TaskFlow Mobile</h3>
+                                <span class="project-tech">React Native • TypeScript</span>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            A productivity app built in 2 hours with AI assistance. Features real-time sync,
+                            offline support, and beautiful animations.
+                        </p>
+                        <div class="project-stats">
+                            <span class="stat">
+                                <span class="stat-value">2h</span>
+                                <span class="stat-label">Build Time</span>
+                            </span>
+                            <span class="stat">
+                                <span class="stat-value">95%</span>
+                                <span class="stat-label">AI Generated</span>
+                            </span>
+                            <span class="stat">
+                                <span class="stat-value">0</span>
+                                <span class="stat-label">Bugs</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">🚀</div>
+                            <div class="project-meta">
+                                <h3>CloudAPI Gateway</h3>
+                                <span class="project-tech">Go • Docker • K8s</span>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            High-performance API gateway with auto-scaling, monitoring, and security.
+                            Deployed to production in minutes, not days.
+                        </p>
+                        <div class="project-stats">
+                            <span class="stat">
+                                <span class="stat-value">15min</span>
+                                <span class="stat-label">Deploy Time</span>
+                            </span>
+                            <span class="stat">
+                                <span class="stat-value">10k</span>
+                                <span class="stat-label">RPS</span>
+                            </span>
+                            <span class="stat">
+                                <span class="stat-value">99.9%</span>
+                                <span class="stat-label">Uptime</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="notify" id="notify">
+                <div class="notify-content">
+                    <h2>Be the first to know</h2>
+                    <p>Join the waitlist and get early access when we launch</p>
+                    <div class="email-form">
+                        <input type="email" placeholder="your@email.com" class="email-input" id="emailInput">
+                        <button class="btn-primary" onclick="handleNotify()">Join Waitlist</button>
+                    </div>
+                    <p class="privacy-note">No spam, unsubscribe anytime</p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="#" class="footer-link">GitHub</a>
+                    <a href="#" class="footer-link">Twitter</a>
+                    <a href="#" class="footer-link">Discord</a>
+                </div>
+                <p class="footer-copy">© 2025 rgh.lol</p>
+            </div>
+        </footer>
+
+        <div class="background-grid"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
