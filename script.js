@@ -1,12 +1,12 @@
 // Smooth scrolling functions
-function scrollToNotify() {
-    document.getElementById('notify').scrollIntoView({ 
+function scrollToShops() {
+    document.getElementById('console-shops').scrollIntoView({ 
         behavior: 'smooth' 
     });
 }
 
-function scrollToProjects() {
-    document.getElementById('projects').scrollIntoView({ 
+function scrollToDiscord() {
+    document.getElementById('discord').scrollIntoView({ 
         behavior: 'smooth' 
     });
 }

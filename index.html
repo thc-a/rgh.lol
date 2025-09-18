@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>rgh.lol - Coming Soon</title>
+    <title>rgh.lol - x360Labs Trusted Sellers</title>
+    <link rel="icon" type="image/x-icon" href="assets/boredTools-ico.ico">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,118 +16,133 @@
     <div class="container">
         <nav class="nav">
             <div class="nav-brand">
-                <span class="logo">rgh.lol</span>
-                <span class="status-badge">Coming Soon</span>
+                <div class="logo-container">
+                    <img src="assets/boredTools-icon.png" alt="boredTools" class="logo-image">
+                    <span class="logo-text">rgh.lol</span>
+                </div>
+                <span class="status-badge">Trusted Sellers</span>
             </div>
         </nav>
 
         <main class="main">
             <section class="hero">
-                <h1 class="hero-title">Building the future of development</h1>
+                <div class="hero-logo">
+                    <img src="assets/boredTools-vector.png" alt="boredTools" class="hero-logo-image">
+                </div>
+                <h1 class="hero-title">x360Labs Trusted Sellers</h1>
                 <p class="hero-subtitle">
-                    A new platform for developers to create, collaborate, and ship faster than ever before.
+                    Your trusted source for console modifications, stealth services, and gaming tools.
                 </p>
                 <div class="hero-cta">
-                    <button class="btn-primary" onclick="scrollToNotify()">Get Early Access</button>
-                    <button class="btn-secondary" onclick="scrollToProjects()">See Examples</button>
+                    <button class="btn-primary" onclick="scrollToShops()">Browse Shops</button>
+                    <button class="btn-secondary" onclick="scrollToDiscord()">Join Discord</button>
                 </div>
             </section>
 
-            <section class="features" id="features">
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <div class="feature-icon">⚡</div>
-                        <h3>Lightning Fast</h3>
-                        <p>Built for speed with modern tooling and optimized workflows</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🤖</div>
-                        <h3>AI-Powered</h3>
-                        <p>Intelligent assistance that understands your code and context</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🔧</div>
-                        <h3>Developer First</h3>
-                        <p>Designed by developers, for developers. No compromises.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🌐</div>
-                        <h3>Universal</h3>
-                        <p>Works with any language, framework, or deployment target</p>
+            <section class="discord-section" id="discord">
+                <div class="discord-content">
+                    <h2>Join Our Community</h2>
+                    <p>Connect with our team and access exclusive services through our Discord server.</p>
+                    <div class="discord-widget">
+                        <iframe src="https://discord.com/widget?id=1151797299475906670&theme=dark" width="350"
+                            height="500" allowtransparency="true" frameborder="0"
+                            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
+                        </iframe>
                     </div>
                 </div>
             </section>
 
-            <section class="projects" id="projects">
-                <h2 class="section-title">Example Projects</h2>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <div class="project-header">
-                            <div class="project-icon">📱</div>
-                            <div class="project-meta">
-                                <h3>TaskFlow Mobile</h3>
-                                <span class="project-tech">React Native • TypeScript</span>
-                            </div>
+            <section class="shops-section" id="console-shops">
+                <h2 class="section-title">Partnered Console Shops</h2>
+                <div class="shops-grid">
+                    <a href="https://discord.gg/dTz4Rcuj6E" class="shop-card">
+                        <div class="shop-image">
+                            <img src="https://x360labs.com/assets/images/timstech.webp" alt="TimsTech" onerror="this.style.display='none'">
                         </div>
-                        <p class="project-description">
-                            A productivity app built in 2 hours with AI assistance. Features real-time sync,
-                            offline support, and beautiful animations.
-                        </p>
-                        <div class="project-stats">
-                            <span class="stat">
-                                <span class="stat-value">2h</span>
-                                <span class="stat-label">Build Time</span>
-                            </span>
-                            <span class="stat">
-                                <span class="stat-value">95%</span>
-                                <span class="stat-label">AI Generated</span>
-                            </span>
-                            <span class="stat">
-                                <span class="stat-value">0</span>
-                                <span class="stat-label">Bugs</span>
-                            </span>
+                        <div class="shop-content">
+                            <h3>TimsTech</h3>
+                            <p class="shop-location">USA</p>
+                            <p class="shop-description">Professional console modification services</p>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="project-card">
-                        <div class="project-header">
-                            <div class="project-icon">🚀</div>
-                            <div class="project-meta">
-                                <h3>CloudAPI Gateway</h3>
-                                <span class="project-tech">Go • Docker • K8s</span>
-                            </div>
+                    <a href="https://discord.gg/dTz4Rcuj6E" class="shop-card">
+                        <div class="shop-image">
+                            <img src="https://x360labs.com/assets/images/ghostsystems.webp" alt="GhostSystems" onerror="this.style.display='none'">
                         </div>
-                        <p class="project-description">
-                            High-performance API gateway with auto-scaling, monitoring, and security.
-                            Deployed to production in minutes, not days.
-                        </p>
-                        <div class="project-stats">
-                            <span class="stat">
-                                <span class="stat-value">15min</span>
-                                <span class="stat-label">Deploy Time</span>
-                            </span>
-                            <span class="stat">
-                                <span class="stat-value">10k</span>
-                                <span class="stat-label">RPS</span>
-                            </span>
-                            <span class="stat">
-                                <span class="stat-value">99.9%</span>
-                                <span class="stat-label">Uptime</span>
-                            </span>
+                        <div class="shop-content">
+                            <h3>GhostSystems</h3>
+                            <p class="shop-location">USA</p>
+                            <p class="shop-description">Advanced gaming system modifications</p>
                         </div>
-                    </div>
+                    </a>
+
+                    <a href="https://accordmods.com/" class="shop-card">
+                        <div class="shop-image">
+                            <img src="/assets/images/accord.webp" alt="Accord Mods" onerror="this.style.display='none'">
+                        </div>
+                        <div class="shop-content">
+                            <h3>Accord Mods</h3>
+                            <p class="shop-location">USA</p>
+                            <p class="shop-description">Premium console modification specialists</p>
+                        </div>
+                    </a>
                 </div>
             </section>
 
-            <section class="notify" id="notify">
-                <div class="notify-content">
-                    <h2>Be the first to know</h2>
-                    <p>Join the waitlist and get early access when we launch</p>
-                    <div class="email-form">
-                        <input type="email" placeholder="your@email.com" class="email-input" id="emailInput">
-                        <button class="btn-primary" onclick="handleNotify()">Join Waitlist</button>
-                    </div>
-                    <p class="privacy-note">No spam, unsubscribe anytime</p>
+            <section class="stealth-section" id="stealth">
+                <h2 class="section-title">Stealth Services</h2>
+                <div class="shops-grid">
+                    <a href="https://xbguard.live/" class="shop-card stealth-card">
+                        <div class="shop-image">
+                            <img src="/assets/images/guard.webp" alt="xbGuard" onerror="this.style.display='none'">
+                        </div>
+                        <div class="shop-content">
+                            <h3>xbGuard</h3>
+                            <p class="shop-description">The Supreme Stealth Service | Running On Kernel 17559</p>
+                            <div class="shop-badge">Premium</div>
+                        </div>
+                    </a>
+
+                    <a href="https://nfinite.live/" class="shop-card stealth-card">
+                        <div class="shop-image">
+                            <img src="/assets/images/nfinite.webp" alt="Nfinite" onerror="this.style.display='none'">
+                        </div>
+                        <div class="shop-content">
+                            <h3>Nfinite</h3>
+                            <p class="shop-description">Nfinite provides the most features over our competitors, check
+                                them out.</p>
+                            <div class="shop-badge">Featured</div>
+                        </div>
+                    </a>
+
+                    <a href="https://teapotlive.net/" class="shop-card stealth-card">
+                        <div class="shop-image">
+                            <img src="/assets/images/teapot.webp" alt="TeapotLive" onerror="this.style.display='none'">
+                        </div>
+                        <div class="shop-content">
+                            <h3>TeapotLive</h3>
+                            <p class="shop-description">The longest ran JTAG/RGH service in the market!</p>
+                            <div class="shop-badge">Veteran</div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <section class="other-services" id="other-services">
+                <h2 class="section-title">Additional Services</h2>
+                <div class="shops-grid">
+                    <a href="https://unshared.shop/" class="shop-card">
+                        <div class="shop-image">
+                            <img src="/assets/images/unshared.webp" alt="Unshared Shop"
+                                onerror="this.style.display='none'">
+                        </div>
+                        <div class="shop-content">
+                            <h3>Unshared Shop</h3>
+                            <p class="shop-description">Buy Unshared Keyvaults | Instant KVs 24/7</p>
+                            <div class="shop-badge">24/7</div>
+                        </div>
+                    </a>
                 </div>
             </section>
         </main>
@@ -138,7 +154,7 @@
                     <a href="#" class="footer-link">Twitter</a>
                     <a href="#" class="footer-link">Discord</a>
                 </div>
-                <p class="footer-copy">© 2025 rgh.lol</p>
+                <p class="footer-copy">© 2025 x360Labs</p>
             </div>
         </footer>
 
